@@ -47,7 +47,7 @@ const Footer = () => {
                   Blog
                 </Link>
               </li>
-              {/* <li>
+              <li>
                 <Link to="/contact" className="hover:underline opacity-90">
                   Contact
                 </Link>
@@ -56,7 +56,7 @@ const Footer = () => {
                 <Link to="/faq" className="hover:underline opacity-90">
                   FAQs
                 </Link>
-              </li> */}
+              </li>
             </ul>
           </div>
 
