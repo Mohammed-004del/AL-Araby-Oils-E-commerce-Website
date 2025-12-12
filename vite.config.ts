@@ -6,16 +6,22 @@ import { componentTagger } from "lovable-tagger";
 const repoName = 'AL-Araby-Oils-E-commerce-Website';
 
 export default defineConfig(({ mode }) => ({
-  base: `/${repoName}/`, 
+  base: mode === 'production' ? `/${repoName}/` : '/',
   
   server: {
     host: "::",
     port: 8080,
   },
+  
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+  
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+  },
+  
+  preview: {
+    port: 8080,
   },
 }));
