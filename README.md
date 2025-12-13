@@ -152,7 +152,7 @@ http://localhost:5173
 Frontend Developer
 
 * GitHub: [https://github.com/Mohammed-004del](https://github.com/Mohammed-004del)
-* LinkedIn: *(add your LinkedIn profile)*
+* LinkedIn: [](https://www.linkedin.com/in/mohammed-mahmood-7327b0301)
 
 ---
 
@@ -163,6 +163,7 @@ If you like this project, don’t forget to **star the repository** ⭐ and shar
 ---
 
 > This project was built for learning, portfolio showcase, and frontend practice purposes.
+
 
 
 
