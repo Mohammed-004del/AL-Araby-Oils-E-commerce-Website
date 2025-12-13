@@ -4,6 +4,14 @@ A modern and fully responsive **E-commerce Frontend Web Application** built to s
 
 ---
 
+## 🎯 Project Banner
+
+![AL-Araby Oils E-commerce Banner](https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=1600&q=80)
+
+_A modern e-commerce frontend focused on clean UI, smooth UX, and scalability._
+
+---
+
 ## 🚀 Live Demo
 
 🔗 **View Live Website:**
@@ -156,3 +164,4 @@ If you like this project, don’t forget to **star the repository** ⭐ and shar
 ---
 
 > This project was built for learning, portfolio showcase, and frontend practice purposes.
+
