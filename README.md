@@ -132,11 +132,10 @@ http://localhost:5173
 
 > Add screenshots here (Home page, Shop page, Cart page)
 
-```md
 ![Home Page](screenshots/home.png)
 ![Shop Page](screenshots/shop.png)
 ![Cart Page](screenshots/cart.png)
-```
+
 
 ---
 
@@ -164,4 +163,5 @@ If you like this project, don’t forget to **star the repository** ⭐ and shar
 ---
 
 > This project was built for learning, portfolio showcase, and frontend practice purposes.
+
 
