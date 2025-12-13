@@ -29,7 +29,7 @@ const App = () => (
       <CartProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/AL-Araby-Oils-E-commerce-Website">
           <ScrollToTop />
           <div className="flex flex-col min-h-screen">
             <Navbar />
