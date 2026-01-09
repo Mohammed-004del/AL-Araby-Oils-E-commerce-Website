@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 const repoName = 'AL-Araby-Oils-E-commerce-Website';
 
 export default defineConfig(({ mode }) => ({
-  base: process.env.NODE_ENV === 'production' ? `/${repoName}/` : '/',
+  base: mode === 'production' ? `/${repoName}/` : '/',
   
   server: {
     host: "::",
