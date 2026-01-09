@@ -29,7 +29,7 @@ const App = () => (
       <CartProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter basename="/AL-Araby-Oils-E-commerce-Website">
+        <BrowserRouter basename={import.meta.env.PROD ? "/AL-Araby-Oils-E-commerce-Website" : "/"}>
           <ScrollToTop />
           <div className="flex flex-col min-h-screen">
             <Navbar />
