@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "@/components/ScrollToTop";
 import { CartProvider } from "@/contexts/CartContext";
 import Navbar from "@/components/Navbar";
@@ -29,7 +29,7 @@ const App = () => (
       <CartProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter basename={import.meta.env.PROD ? "/AL-Araby-Oils-E-commerce-Website" : "/"}>
+        <HashRouter basename={import.meta.env.PROD ? "/AL-Araby-Oils-E-commerce-Website" : "/"}>
           <ScrollToTop />
           <div className="flex flex-col min-h-screen">
             <Navbar />
@@ -52,7 +52,7 @@ const App = () => (
             </main>
             <Footer />
           </div>
-        </BrowserRouter>
+        </HashRouter>
       </CartProvider>
     </TooltipProvider>
   </QueryClientProvider>
